@@ -8,14 +8,6 @@ define('DB_password', '');
 define('DB_name', 'SkyBank');
 $conn = mysqli_connect(DB_host, DB_username, DB_password, DB_name);
 
-// Defining constant php variable for 000.webhost
-
-// define('DB_host', 'localhost');
-// define('DB_username', 'id19036035_sky');
-// define('DB_password', '~NuYCrxZehN5N1<M');
-// define('DB_name', 'id19036035_skybank');
-// $conn = mysqli_connect(DB_host, DB_username, DB_password, DB_name);
-
 
 
 if (!$conn) {
